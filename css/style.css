@@ -1,0 +1,276 @@
+/* Importing Google Fonts */
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(../asset/font/Roboto-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: "RobotoMed";
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: "RobotoBold";
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: "RobotoReg";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+  }
+  
+  /* Default Stylings */
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 5%;
+  }
+  
+  /* Global Classes Stylings */
+  
+  .flex {
+    display: flex;
+  }
+  
+  .just-cntr {
+    justify-content: center;
+  }
+  
+  .just-even {
+    justify-content: space-evenly;
+  }
+  
+  .just-btwn {
+    justify-content: space-between;
+  }
+  
+  .just-arnd {
+    justify-content: space-around;
+  }
+  
+  .align-cntr {
+    align-items: center;
+  }
+  
+  .f-wrap {
+    flex-wrap: wrap;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Header Stylings */
+  
+  header {
+    width: 100%;
+    padding: 2vw 0;
+  }
+  
+  header nav.navbarMenu ul {
+    list-style: none;
+  }
+  
+  header nav.navbarMenu ul li a {
+    margin: 1rem;
+    font-family: RobotoMed;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .brandLogo {
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .brandLogo span {
+    color: #00abae;
+    font-family: "RobotoBold";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Header Stylings */
+  
+  /* Hero Section Stylings */
+  
+  section.title {
+    padding: 2vw 0vw;
+    width: 100%;
+  }
+  
+  section.title .titleDes p {
+    font-size: 1.8rem;
+    font-family: "RobotoReg";
+    padding: 1rem 0rem;
+  }
+  
+  button {
+    padding: 1rem 1.4rem;
+    background-color: #00abae;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "RobotoBold";
+    border-radius: 8px;
+    margin: 0 1rem 1rem 0;
+  }
+  
+  button a {
+    color: white;
+  }
+  
+  section.title .titlePic {
+    margin-top: 2.5rem;
+  }
+  
+  section.title .titlePic img.profilePic {
+    border-radius: 50%;
+    border: 10px solid #00abae;
+  }
+  
+  /* Hero Section Stylings */
+  
+  /* Main Section Stylings */
+  
+  /* About Stylings */
+  
+  main #about {
+    margin-bottom: 2rem;
+  }
+  
+  main #about h1 {
+    padding: 2rem 0rem;
+    font-family: "RobotoBold";
+  }
+  
+  main #about .aboutItem {
+    color: #575757;
+  }
+  
+  main #about .aboutItem .work h2 {
+    font-family: "RobotoBlack";
+    padding: 1rem 0rem;
+    font-size: 1.3rem;
+  }
+  
+  main #about .aboutItem .work p {
+    font-family: "RobotoReg";
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+  /* About Stylings */
+  
+  /* Skill Stylings */
+  
+  main h1.skillHead {
+    padding: 3rem 0rem;
+    font-family: "RobotoBlack";
+  }
+  
+  main .skills img {
+    width: 5rem;
+  }
+  
+  /* Skill Stylings */
+  
+  /* Projects Stylings */
+  
+  main h1.projectHead {
+    padding: 3rem 0rem;
+    font-family: "RobotoBlack";
+  }
+  
+  main #project .projItem {
+    margin-bottom: 2rem;
+  }
+  
+  main #project .projItem .projectDes h2 {
+    padding: 1rem 0rem;
+    font-family: "RobotoBold";
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  main #project .projItem .projectDes {
+    color: #575757;
+    margin-right: 8rem;
+  }
+  
+  main #project .projItem .projectDes .projDesDetail {
+    padding: 1rem 0rem;
+  }
+  
+  main #project .projItem .projectScst img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 1rem 0;
+  }
+  
+  /* Projects Stylings */
+  
+  /* Footer Stylings */
+  
+  footer#contact {
+    text-align: center;
+  }
+  
+  footer#contact h1 {
+    padding: 2rem 0rem;
+    font-family: "RobotoBold";
+  }
+  
+  footer#contact p {
+    padding-bottom: 2rem;
+    font-family: "RobotoReg";
+    font-size: 100%;
+  }
+  
+  footer#contact .socialIcons {
+    padding: 1.2rem;
+  }
+  
+  footer#contact .socialIcons img.git {
+    width: 3rem;
+    margin-right: 20px;
+  }
+  
+  footer#contact .socialIcons img.link {
+    width: 3.1rem;
+  }
+  
+  footer#contact p#copy {
+    font-size: 1rem;
+    font-family: "RobotoReg";
+    font-weight: 600;
+  }
+  
+  /* Footer Stylings */
+  
+  /* Main Section Stylings */
+  
+  /* Media Queries Screens */
+  
+  @media screen and (max-width: 800px) {
+    section.title {
+      flex-direction: column-reverse;
+    }
+  
+    main #about .aboutItem {
+      flex-direction: column;
+    }
+  
+    main #project .projItem {
+      flex-direction: column;
+    }
+  }
+  
